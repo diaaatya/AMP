@@ -67,6 +67,7 @@ nav a {
     color: #FFF0CE;
     text-decoration: none;
     padding: 10px 20px;
+
     transition: background-color 0.3s ease;
 }
 
@@ -82,18 +83,24 @@ section {
 }
 
 .offwhite-background {
+
     background-color: #F8F8FF;
+    background-image: url(/images/airplane.jpg);
+
 }
 
 .lightblue-background {
+    background-image: url(images/plane2.jpg);
     background-color: #7FC7D9;
 }
 
 .parallax {
+    background-color: #ccc;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .go-to-next {
@@ -172,6 +179,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     border-spacing: 0;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 th, td {
@@ -208,25 +216,37 @@ tbody tr:nth-child(even) {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding: 20px;
+    margin-right: 10px;
+    font-weight:500;
+    
 }
 
 .introduction-text {
     flex: 1;
-    text-align: left;
+    
+    text-align: justify;
 }
 
 .introduction-image {
     flex: 1;
-    margin-left: 20px; /* Adjust spacing as needed */
+
 }
 
 .introduction-image img {
     max-width: 100%; /* Ensure the image doesn't exceed its container */
+    width: auto;
+    height: auto;
+  border-radius: 5px;
 }
 .instructor-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
 }
 
 .instructor-image {
@@ -240,7 +260,8 @@ tbody tr:nth-child(even) {
 
 .instructor-text {
     flex: 2;
-    text-align: left;
+    text-align: justify;
+    padding: 10px;
 }
 
 .course {
